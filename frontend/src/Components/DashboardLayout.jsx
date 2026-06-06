@@ -1,5 +1,5 @@
 import Sidebar from "./Sidebar";
-import NotificationBell from "./NotificationBell";
+import NotificationBell from "./Notificationbell";
 import { useAuth } from "../context/AuthContext";
 
 function DashboardLayout({ title, children }) {
