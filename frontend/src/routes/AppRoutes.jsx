@@ -1,6 +1,6 @@
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import Login from "../pages/Authentication/Login";
+import Login from "../pages/Authentication/login";
 import Signup from "../pages/Authentication/Signup";
 import UserFeedback from "../pages/Student/UserFeedback";
 import StudentDashboard from "../pages/Student/StudentDashboard";
@@ -15,7 +15,6 @@ import InternshipDetails from "../pages/Student/InternshipDetails";
 import Opportunities from "../pages/Administrator/Opportunities";
 import Reports from "../pages/Administrator/Reports";
 import Settings from "../pages/Administrator/Settings";
-import AdminFeedback from "../pages/Administrator/Feedback";
 import ProtectedRoute from "./ProtectedRoute";
 import StatusHistory from "../pages/Administrator/Statushistory";
 import StudentGrades from "../pages/Student/StudentGrades";
