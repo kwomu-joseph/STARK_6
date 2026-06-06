@@ -18,7 +18,7 @@ const StatusHistory = () => {
       const token = localStorage.getItem("access");
 
       const response = await axios.get(
-        `http://127.0.0.1:8000/api/logs/${logId}/history/`,
+        `https://onrender.com{logId}/history/`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
