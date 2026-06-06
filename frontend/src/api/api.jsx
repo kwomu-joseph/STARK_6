@@ -3,7 +3,7 @@ import axios from "axios";
 const api = axios.create({
   baseURL: window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
     ? "http://127.0.0.1:8000/api"
-    : "https://stark-6.onrender.com", 
+    : "https://stark-6.onrender.com/api", 
 });
 
 api.interceptors.request.use((config) => {
