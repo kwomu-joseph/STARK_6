@@ -379,7 +379,6 @@ function Signup() {
             >
               {showConfirmPassword ? "🙈" : "👁️"}
             </button>
-          </div>
 
           {error && (
             <div className="bg-indigo-100 border border-indigo-400 text-indigo-700 px-4 py-2 rounded text-sm">
