@@ -21,7 +21,7 @@ function Sidebar() {
       ["Submit Log", "/submitlog"],
       ["Internship", "/student/internshipdetails"],
       ["Feedback", "/student/feedback"],
-      ["Student grades", "/StudentGrades"],
+      ["Student Grades", "/student/studentgrades"],
     ],
     supervisor: [
       ["Dashboard", "/supervisor"],
