@@ -16,3 +16,4 @@ python-dotenv==1.2.2
 sqlparse==0.5.5
 tzdata==2026.2
 gunicorn==21.2.0
+dj-database-url==2.3.0
