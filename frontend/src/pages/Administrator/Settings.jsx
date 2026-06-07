@@ -29,7 +29,8 @@ const Settings = () => {
   };
 
   return (
-    <div>
+    <DashboardLayout title="Settings">
+      <div>
       <h1 className="text-2xl font-bold text-red-600 mb-4">
         Settings
       </h1>
@@ -68,6 +69,8 @@ const Settings = () => {
         </button>
       </form>
     </div>
+    </DashboardLayout>
+    
   );
 };
 
