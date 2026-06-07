@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import DashboardLayout from "../../Components/DashboardLayout";
 import api from "../../api/api";
 
 const Settings = () => {
