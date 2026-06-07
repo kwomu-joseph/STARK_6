@@ -52,7 +52,7 @@ class Migration(migrations.Migration):
                 ('date_joined', models.DateTimeField(default=django.utils.timezone.now, verbose_name='date joined')),
                 ('name', models.CharField(max_length=30)),
                 ('role', models.CharField(choices=[('student', 'Student'), ('supervisor', 'Supervisor'), ('admin', 'Admin')], max_length=50)),
-                ('telephone_number', models.CharField(blank=True, max_length=15, null=True)),
+                ('phone_number', models.CharField(blank=True, max_length=15, null=True)),
                 ('ID_number', models.CharField(max_length=20, unique=True)),
                 ('groups', models.ManyToManyField(blank=True, related_name='customuser_set', to='auth.group')),
                 ('user_permissions', models.ManyToManyField(blank=True, related_name='customuser_permissions', to='auth.permission')),
