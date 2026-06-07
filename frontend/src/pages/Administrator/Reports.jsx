@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import DashboardLayout from "../../Components/DashboardLayout";
 import api from "../../api/api";
 
 const Reports = () => {
@@ -11,7 +12,8 @@ const Reports = () => {
   }, []);
 
   return (
-    <div>
+    <DashboardLayout title="Reports">
+      <div>
       <h1 className="text-2xl font-bold text-red-600 mb-4">
         Reports
       </h1>
@@ -31,7 +33,9 @@ const Reports = () => {
           <p>No reports available.</p>
         )}
       </div>
-    </div>
+    </div>    
+    </DashboardLayout>
+    
   );
 };
 
