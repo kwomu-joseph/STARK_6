@@ -23,7 +23,7 @@ def choose_role(request):
 @api_view(['GET', 'POST', 'PATCH', 'DELETE'])
 @permission_classes([AllowAny])
 def test_api(request):
-
+    return Response({"message": "API working"})
         
 
 def require_role(user, allowed_roles):
